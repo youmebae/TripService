@@ -1,14 +1,13 @@
 package org.craftedsw.tripservicekata.trip;
 
+import static org.craftedsw.tripservicekata.trip.UserBuilder.aUser;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
+
 import java.util.List;
 
 import org.craftedsw.tripservicekata.exception.UserNotLoggedInException;
 import org.craftedsw.tripservicekata.user.User;
-
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
-import static org.craftedsw.tripservicekata.trip.UserBuilder.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
